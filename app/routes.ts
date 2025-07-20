@@ -6,6 +6,7 @@ export default [
         route("self_introduction", "self_introduction/self_introduction.tsx"),
         route("oss", "./oss.tsx"),
         route("qualification", "./qualification.tsx"),
-        route("lucky_uuid", "./LuckyUUID.tsx")
+        route("lucky_uuid", "./LuckyUUID.tsx"),
+        route("lucky_color", "./LuckyColor.tsx"),
     ])
 ] satisfies RouteConfig;

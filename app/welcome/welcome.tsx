@@ -8,6 +8,7 @@ export function Welcome() {
         <li><Link to="/qualification">保有資格</Link></li>
         <li><Link to="/oss">OSS</Link></li>
         <li><Link to="/lucky_uuid">ラッキーUUID</Link></li>
+        <li><Link to="/lucky_color">ラッキーカラー</Link></li>
       </ul>
     </div>
   )
