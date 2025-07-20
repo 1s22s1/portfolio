@@ -5,6 +5,7 @@ export default [
         index("routes/home.tsx"),
         route("self_introduction", "self_introduction/self_introduction.tsx"),
         route("oss", "./oss.tsx"),
-        route("qualification", "./qualification.tsx")
+        route("qualification", "./qualification.tsx"),
+        route("lucky_uuid", "./LuckyUUID.tsx")
     ])
 ] satisfies RouteConfig;
