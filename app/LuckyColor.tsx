@@ -1,5 +1,6 @@
 import { Button, Stack } from "@mui/material";
 import { useState } from "react";
+import chroma from 'chroma-js';
 
 const LuckyColor = () => {
     const [red, setRed] = useState(0);
@@ -8,9 +9,10 @@ const LuckyColor = () => {
     const [clicked, setClicked] = useState(false);
 
     const fortuneTelling = () => {
-        setRed(Math.floor(Math.random() * 256));
-        setGreen(Math.floor(Math.random() * 256));
-        setBlue(Math.floor(Math.random() * 256));
+        const [red, green, blue] = chroma.random().rgb();
+        setRed(red);
+        setGreen(green);
+        setBlue(blue);
         setClicked(true);
     }
 
