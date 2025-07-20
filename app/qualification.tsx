@@ -20,11 +20,11 @@ const Qualification = () => {
     ]
 
     return (
-        <div className="flex items-center justify-center pt-16 pb-4">
+        <>
             <ul>
                 {qualifications.map((e, i) => <li key={i}>{e.yearMonth} {e.name}</li>)}
             </ul>
-        </div>
+        </>
     )
 }
 

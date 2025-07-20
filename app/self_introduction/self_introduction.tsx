@@ -26,7 +26,7 @@ const SelfIntroduction = () => {
     ];
 
     return (
-        <div className="flex items-center justify-center pt-16 pb-4">
+        <>
             <ul>
                 {
                     qaArr.map((e, index) =>
@@ -37,7 +37,7 @@ const SelfIntroduction = () => {
                     )
                 }
             </ul>
-        </div>
+        </>
     )
 }
 

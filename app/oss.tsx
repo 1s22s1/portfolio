@@ -8,11 +8,11 @@ const Oss = () => {
     ];
 
     return (
-        <div className="flex items-center justify-center pt-16 pb-4">
+        <>
             <ul>
                 {ossArr.map((e, i) => <li key={i}><a href={e.href}>{e.title}</a></li>)}
             </ul>
-        </div>
+        </>
     )
 }
 
