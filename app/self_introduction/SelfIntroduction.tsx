@@ -1,4 +1,4 @@
-import QA from "../self_introduction/qa";
+import QA from "./QA";
 
 const SelfIntroduction = () => {
     const qaArr = [
