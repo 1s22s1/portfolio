@@ -1,11 +1,11 @@
 import { type RouteConfig, index, layout, route } from "@react-router/dev/routes";
 
 export default [
-    layout("./layout.tsx", [
-        index("routes/home.tsx"),
-        route("self_introduction", "self_introduction/self_introduction.tsx"),
-        route("oss", "./oss.tsx"),
-        route("qualification", "./qualification.tsx"),
+    layout("./Layout.tsx", [
+        index("routes/Home.tsx"),
+        route("self_introduction", "self_introduction/SelfIntroduction.tsx"),
+        route("oss", "./Oss.tsx"),
+        route("qualification", "./Qualification.tsx"),
         route("lucky_uuid", "./LuckyUUID.tsx"),
         route("lucky_color", "./LuckyColor.tsx"),
     ])
