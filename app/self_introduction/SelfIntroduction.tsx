@@ -2,7 +2,7 @@ import QA from "./QA";
 
 const SelfIntroduction = () => {
     const qaArr = [
-        { question: "お名前は？", answer: "原子軌道です。物理を理解したかったのですが、適性がなく悔しいのでこの名前にしました。" },
+        { question: "お名前は？", answer: "花びら餅です。" },
         { question: "誕生日は？", answer: "12月20日です。誕生石はタンザナイト、星座は射手座です。また、誕生花はカトレアです。" },
         { question: "性別は？", answer: "男です。" },
         { question: "好きな食べ物は？", answer: "味噌バターコーンラーメンが好きです。なかなか、売っているお店がなくて悲しいです。" },
