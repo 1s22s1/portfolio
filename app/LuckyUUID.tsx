@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router';
 import { TwitterShareButton, TwitterIcon } from 'react-share';
 import { v4 as uuidv4 } from 'uuid';
 
