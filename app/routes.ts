@@ -6,7 +6,7 @@ export default [
         route("self_introduction", "self_introduction/SelfIntroduction.tsx"),
         route("oss", "./Oss.tsx"),
         route("qualification", "./Qualification.tsx"),
-        route("network_specialist", "./NerworkSpecialist.tsx"),
+        route("database_specialist", "./DatabaseSpecialist.tsx"),
         route("lucky_uuid", "./LuckyUUID.tsx"),
         route("lucky_color", "./LuckyColor.tsx"),
     ])
