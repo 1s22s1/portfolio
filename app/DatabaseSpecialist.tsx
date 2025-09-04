@@ -1,6 +1,7 @@
 const Oss = () => {
     const works = [
         { date: "2025/09/01", content: "令和6年度午前2", score: "16/25" },
+        { date: "2025/09/03", content: "令和5年度午前2", score: "16/25" },
     ];
 
     return (
