@@ -6,7 +6,6 @@ export function Welcome() {
       <ul>
         <li><Link to="/self_introduction">自己紹介</Link></li>
         <li><Link to="/qualification">保有資格等</Link></li>
-        <li><Link to="/database_specialist">データベーススペシャリスト試験の学習記録</Link></li>
         <li><Link to="/oss">OSS</Link></li>
         <li><Link to="/lucky_uuid">ラッキーUUID</Link></li>
         <li><Link to="/lucky_color">ラッキーカラー</Link></li>
