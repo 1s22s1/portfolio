@@ -1,5 +1,6 @@
 const Qualification = () => {
     const qualifications = [
+        { yearMonth: "2025/09", name: "販売士3級" },
         { yearMonth: "2025/09", name: "実用数学技能検定2級" },
         { yearMonth: "2025/08", name: "知的財産管理技能検定3級" },
         { yearMonth: "2025/07", name: "実用数学技能検定準2級" },
